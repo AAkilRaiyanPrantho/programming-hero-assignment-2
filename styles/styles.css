@@ -6,6 +6,10 @@ body {
   padding-right: 240px;
 }
 
+.commont-font.colour{
+    color: #534c64;
+}
+
 /* Navigation Styles Starts */
 #socials {
   border-radius: 5px;
@@ -49,3 +53,32 @@ body {
 }
 
 /* Navigation Styles Ends */
+
+
+
+/* Mobile Responsive Starts */
+@media screen and (max-width: 425px) {
+    body{
+        padding: 10px;
+    }   
+    .navigation{
+        flex-direction: column;
+    }
+    .nav-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .list-items{
+        flex-direction: column;
+    }
+    .nav-options > ul {
+        padding: 0px;
+      }
+    .nav-options li{
+        padding: 20px 0;
+    }
+}
+/* Mobile Responsive Ends */
+/* Tablet Responsive Starts */
+/* Tablet Responsive Ends */
