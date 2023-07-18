@@ -6,9 +6,9 @@ body {
 }
 
 .button {
-  border-radius: 40px;
+  border-radius: 30px;
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
-  padding: 21px 40px;
+  padding: 15px 30px;
   align-items: center;
   color: #fff;
   font-size: 20px;
