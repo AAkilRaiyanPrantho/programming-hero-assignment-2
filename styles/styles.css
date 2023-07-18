@@ -2,12 +2,23 @@
 body {
   font-family: "Lato", sans-serif;
   font-family: "Work Sans", sans-serif;
-  padding-left: 240px;
-  padding-right: 240px;
+  margin: 0;
 }
 
-.commont-font.colour{
-    color: #534c64;
+.button {
+  border-radius: 40px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  padding: 21px 40px;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0px;
+  cursor: crosshair;
+}
+
+.commont-font.colour {
+  color: #534c64;
 }
 
 /* Navigation Styles Starts */
@@ -17,27 +28,26 @@ body {
   display: flex;
   justify-content: space-around;
 }
-#socials .svg{
-    margin-left: 10px;
+#socials .svg {
+  margin-left: 10px;
 }
 .navigation {
   display: flex;
   justify-content: space-between;
+  padding-left: 240px;
+  padding-right: 240px;
 }
 
-.heading-image{
-    margin-right: 10px;
+.heading-image {
+  margin-right: 10px;
 }
-.nav-logo{
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.nav-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-options{
-    
+.nav-options {
 }
 .nav-options > ul {
   display: flex;
@@ -48,8 +58,8 @@ body {
   font-weight: 500;
 }
 
-.nav-options li{
-    padding: 20px;
+.nav-options li {
+  padding: 20px;
 }
 
 .nav-options li > a {
@@ -59,37 +69,90 @@ body {
 
 /* Navigation Styles Ends */
 
+/* Banner Style Starts */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+  background-color: #fff;
+}
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(140, 87, 238, 0.03) 0%,
+      rgba(241, 68, 174, 0.03) 100%
+    ),
+    url("../images/Group\ 14.png");
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 700px;
+  background-size: cover;
+}
 
+.banner-text h1 {
+  background: linear-gradient(to right, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5.9rem;
+  margin: 0px;
+}
+.banner-para{
+    text-align: left;
+}
+.banner-button{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-blue{
+    background: #4EC5F7;
+}
+
+.banner-image {
+  padding-right: 240px;
+}
+/* Banner Style Ends */
+
+/* We are Gamers Section Starts */
+
+/* We are Gamers Section Ends */
 
 /* Mobile Responsive Starts */
 @media screen and (max-width: 425px) {
-    body{
-        padding: 10px;
-    }   
-    .navigation{
-        flex-direction: column;
-    }
-    .nav-logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .list-items{
-        flex-direction: column;
-    }
-    .nav-options > ul {
-        padding: 0px;
-      }
-    .nav-options li{
-    }
+  body {
+    padding: 10px;
+  }
+  .navigation {
+    flex-direction: column;
+  }
+  .nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .list-items {
+    flex-direction: column;
+  }
+  .nav-options > ul {
+    padding: 0px;
+  }
+  .nav-options li {
+  }
 }
 /* Mobile Responsive Ends */
 /* Tablet Responsive Starts */
-@media screen and (min-width: 425px) and (max-width: 768px){
-
-    body{
-        padding: 20px;
-    }
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
 }
 
 /* Tablet Responsive Ends */
