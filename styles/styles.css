@@ -104,16 +104,16 @@ body {
   font-size: 5.9rem;
   margin: 0px;
 }
-.banner-para{
-    text-align: left;
+.banner-para {
+  text-align: left;
 }
-.banner-button{
-    display: flex;
-    gap: 10px;
+.banner-button {
+  display: flex;
+  gap: 10px;
 }
 
-.btn-blue{
-    background: #4EC5F7;
+.btn-blue {
+  background: #4ec5f7;
 }
 
 .banner-image {
@@ -122,7 +122,27 @@ body {
 /* Banner Style Ends */
 
 /* We are Gamers Section Starts */
-
+.we-are-gamers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  width: 100%;
+  height: 600px;
+  flex-shrink: 0;
+}
+.gamers-image{
+    padding-left: 240px;
+}
+.gamers-text{
+    padding-right: 240px;
+    text-align: right;
+    width: 450px;
+}
 /* We are Gamers Section Ends */
 
 /* Mobile Responsive Starts */
