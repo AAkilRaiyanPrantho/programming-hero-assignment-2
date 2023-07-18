@@ -14,6 +14,11 @@ body {
 #socials {
   border-radius: 5px;
   background-color: rgba(11, 2, 35, 0.1);
+  display: flex;
+  justify-content: space-around;
+}
+#socials .svg{
+    margin-left: 10px;
 }
 .navigation {
   display: flex;
@@ -76,9 +81,15 @@ body {
         padding: 0px;
       }
     .nav-options li{
-        padding: 20px 0;
     }
 }
 /* Mobile Responsive Ends */
 /* Tablet Responsive Starts */
+@media screen and (min-width: 425px) and (max-width: 768px){
+
+    body{
+        padding: 20px;
+    }
+}
+
 /* Tablet Responsive Ends */
