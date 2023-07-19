@@ -472,6 +472,9 @@ play-instantly-texts-description,
     flex-direction: column;
     padding: 0px;
   }
+  #socials{
+    justify-content: center;
+  }
   .banner {
     flex-direction: column-reverse;
     align-items: center;
@@ -489,6 +492,7 @@ play-instantly-texts-description,
     padding: 0px;
   }
   .nav-options li {
+    padding: 20px 5px;
   }
   .banner-text {
     display: flex;
@@ -652,7 +656,27 @@ play-instantly-texts-description,
     width: 25%;
   }
 
-  
+  .footer{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .footer-links, .footer-socials {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .footer-terms {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
 }
 /* Mobile Responsive Ends */
 /* Tablet Responsive Starts */
