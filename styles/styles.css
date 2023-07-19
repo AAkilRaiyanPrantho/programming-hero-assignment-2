@@ -529,10 +529,35 @@ play-instantly-texts-description,
   .gamers-text button{
     margin-top: 20px;
   }
-
   .gamers-purpose,.gamers-unleash {
     margin: 20px 0px 0px 0px;
   }
+  .funny-video-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px 10px;
+  }
+  .image-container figcaption{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .image-content{
+    display: none;
+  }
+  .image-content:hover{
+    display: none;
+  }
+  .card-image {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .card-image:hover {
+    opacity: 1;
+  }
+  
 }
 /* Mobile Responsive Ends */
 /* Tablet Responsive Starts */
