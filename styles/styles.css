@@ -119,11 +119,17 @@ body {
 .banner-button {
   display: flex;
   gap: 10px;
+  margin-top: 20px;
 }
-.banner-icons{
+.banner-icons {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.banner-icons p {
+  color: #534c64;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .btn-blue {
@@ -373,16 +379,16 @@ play-instantly-texts-description,
 }
 
 .full-hover :hover {
-  color: #FF42A5;
-  border: 1px solid #FF42A5;
+  color: #ff42a5;
+  border: 1px solid #ff42a5;
 }
-.hover-buttons:hover p{
+.hover-buttons:hover p {
   border: none;
-  color: #FF42A5;
+  color: #ff42a5;
 }
-.hover-buttons:hover img{
+.hover-buttons:hover img {
   border: none;
-  color: #FF42A5;
+  color: #ff42a5;
 }
 /* Game Hovering Section Ends */
 
