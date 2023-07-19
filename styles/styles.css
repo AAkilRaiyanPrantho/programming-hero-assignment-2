@@ -335,6 +335,48 @@ play-instantly-texts-description,
 
 /* Play Instantly Bonus Section Ends */
 
+/* Game Hovering Section Starts */
+.game-hovering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 75%;
+  margin: auto;
+  margin-top: -150px;
+  padding: 80px 10px;
+  /* background-color: #f948b2; */
+}
+.hover-buttons {
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background: seashell;
+  color: #0b0223;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.full-hover :hover {
+  color: #FF42A5;
+  border: 1px solid #FF42A5;
+}
+.hover-buttons:hover p{
+  border: none;
+  color: #FF42A5;
+}
+.hover-buttons:hover img{
+  border: none;
+  color: #FF42A5;
+}
+/* Game Hovering Section Ends */
+
 /* Footer Section Starts */
 .footer {
   background-color: #0b0223;
