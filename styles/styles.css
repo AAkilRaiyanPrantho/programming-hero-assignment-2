@@ -623,9 +623,37 @@ play-instantly-texts-description,
     top: -105px;
     left: 250px;
   }
+
+  .game-hovering {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin: auto;
+    margin-top: -60px;
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+  .full-hover {
+    gap: 2px;
+    margin: auto;
+  }
+  .hover-buttons {
+    gap: 1px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: seashell;
+    color: #0b0223;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .hover-buttons img {
+    width: 25%;
+  }
+
+  
 }
 /* Mobile Responsive Ends */
 /* Tablet Responsive Starts */
-@media screen and (min-width: 425px) and (max-width: 768px)
-
-/* Tablet Responsive Ends */
+@media screen and (min-width: 425px) and (max-width: 768px); /* Tablet Responsive Ends */
