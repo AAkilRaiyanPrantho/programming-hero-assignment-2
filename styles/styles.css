@@ -34,8 +34,8 @@ body {
 .navigation {
   display: flex;
   justify-content: space-between;
-  padding-left: 240px;
-  padding-right: 240px;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 .heading-image {
@@ -102,6 +102,7 @@ body {
   font-style: normal;
   font-weight: 600;
   margin: 0;
+  margin-left: 30px;
 }
 .banner-text h1 {
   background: linear-gradient(to right, #f948b2 0%, #8758f1 100%);
@@ -110,12 +111,18 @@ body {
   -webkit-text-fill-color: transparent;
   font-size: 5.9rem;
   margin: 0px;
+  margin-left: 20px;
 }
 .banner-para {
   text-align: left;
 }
 .banner-button {
   display: flex;
+  gap: 10px;
+}
+.banner-icons{
+  display: flex;
+  align-items: center;
   gap: 10px;
 }
 
