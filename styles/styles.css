@@ -96,6 +96,13 @@ body {
   background-size: cover;
 }
 
+.banner-text h3 {
+  color: #0b0223;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
 .banner-text h1 {
   background: linear-gradient(to right, #f948b2 0%, #8758f1 100%);
   background-clip: text;
@@ -139,9 +146,29 @@ body {
   padding-left: 240px;
 }
 .gamers-text {
-  padding-right: 240px;
+  margin: 0px 100px;
   text-align: right;
-  width: 450px;
+}
+
+.gamer-header {
+  margin-bottom: 0px;
+}
+.gamers-description {
+  width: 80%;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+.gamers-purpose {
+  color: #534c64;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 15px 0px 0px 0px;
+}
+.gamers-unleash {
+  color: #534c64;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 5px 0px 0px 0px;
 }
 /* We are Gamers Section Ends */
 
@@ -160,7 +187,8 @@ body {
 }
 .funny-video-header-span,
 .play-instantly-texts-header-span,
-.play-instantly-texts-header-span-bonus {
+.play-instantly-texts-header-span-bonus,
+.gamer-header {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -171,7 +199,8 @@ body {
 
 .funny-video-description,
 play-instantly-texts-description,
-.play-instantly-texts-description-bonus {
+.play-instantly-texts-description-bonus,
+.gamers-description {
   color: #534c64;
   font-size: 1.125rem;
   font-weight: 400;
@@ -305,6 +334,74 @@ play-instantly-texts-description,
 }
 
 /* Play Instantly Bonus Section Ends */
+
+/* Footer Section Starts */
+.footer {
+  background-color: #0b0223;
+  color: #fff;
+  text-align: center;
+  margin: 0px;
+}
+.full-footer {
+  max-width: 70%;
+  max-height: 100%;
+  margin: auto;
+  padding: 50px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer-header {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.footer-span {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px 20px;
+}
+
+.footer-terms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Footer Section Ends */
 
 /* Mobile Responsive Starts */
 @media screen and (max-width: 425px) {
