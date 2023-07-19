@@ -466,12 +466,13 @@ play-instantly-texts-description,
   body {
     padding: 10px;
   }
-  .navigation,.list-items,.we-are-gamers
-   {
+  .navigation,
+  .list-items,
+  .we-are-gamers {
     flex-direction: column;
     padding: 0px;
   }
-  .banner{
+  .banner {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
@@ -483,34 +484,33 @@ play-instantly-texts-description,
     justify-content: center;
     align-items: center;
   }
-   
+
   .nav-options > ul {
     padding: 0px;
   }
   .nav-options li {
-
   }
-  .banner-text{
+  .banner-text {
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(
-      to bottom,
-      rgba(140, 87, 238, 0.03) 0%,
-      rgba(241, 68, 174, 0.03) 100%
-    ),
-    url("../images/Group\ 14.png");
+        to bottom,
+        rgba(140, 87, 238, 0.03) 0%,
+        rgba(241, 68, 174, 0.03) 100%
+      ),
+      url("../images/Group\ 14.png");
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
   }
-  .banner-image{
+  .banner-image {
     padding-right: 0px;
   }
-  .banner-image img{
+  .banner-image img {
     width: 100%;
   }
 
-  .we-are-gamers{
+  .we-are-gamers {
     width: 100%;
     height: 100%;
     text-align: center;
@@ -518,18 +518,21 @@ play-instantly-texts-description,
   .gamers-image {
     padding-left: 0px;
   }
-  .gamers-image img{
+  .gamers-image img {
     width: 100%;
   }
-  .gamers-text,.gamer-header,.gamers-description {
-    margin: auto ;
+  .gamers-text,
+  .gamer-header,
+  .gamers-description {
+    margin: auto;
     margin-bottom: 10px;
     text-align: center;
   }
-  .gamers-text button{
+  .gamers-text button {
     margin-top: 20px;
   }
-  .gamers-purpose,.gamers-unleash {
+  .gamers-purpose,
+  .gamers-unleash {
     margin: 20px 0px 0px 0px;
   }
   .funny-video-cards {
@@ -537,15 +540,16 @@ play-instantly-texts-description,
     grid-template-columns: 1fr;
     padding: 10px 10px;
   }
-  .image-container figcaption{
+  .image-container figcaption {
     text-align: center;
     margin: auto;
     margin-bottom: 20px;
+    margin-top: 20px;
   }
-  .image-content{
+  .image-content {
     display: none;
   }
-  .image-content:hover{
+  .image-content:hover {
     display: none;
   }
   .card-image {
@@ -553,18 +557,75 @@ play-instantly-texts-description,
     width: 100%;
     margin: auto;
   }
-  
   .card-image:hover {
     opacity: 1;
   }
-  
+
+  .play-instantly {
+    margin: 0px auto;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .play-instantly-texts {
+    margin: auto;
+  }
+  .play-instantly-texts-header,
+  .play-instantly-texts-header-span {
+    text-align: center;
+    margin: 30px -15px;
+    width: 100%;
+  }
+  .play-instantly-texts-description {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .image-overlap1 img {
+    width: 100%;
+  }
+  .image-overlap2 img {
+    width: 40%;
+    top: -105px;
+    left: -10px;
+  }
+
+  /* Bonus */
+  .play-instantly-bonus {
+    margin: 0px auto;
+    flex-direction: column-reverse;
+    padding: 0px;
+  }
+  .play-instantly-texts-bonus {
+    margin: auto;
+  }
+  .play-instantly-texts-header-bonus,
+  .play-instantly-texts-header-span-bonus {
+    text-align: center;
+    margin: 30px -15px;
+    width: 100%;
+  }
+  .play-instantly-texts-description-bonus {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .image-overlap1-bonus img {
+    width: 100%;
+  }
+  .image-overlap2-bonus img {
+    width: 40%;
+    top: -105px;
+    left: 250px;
+  }
 }
 /* Mobile Responsive Ends */
 /* Tablet Responsive Starts */
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  body {
-    padding: 20px;
-  }
-}
+@media screen and (min-width: 425px) and (max-width: 768px)
 
 /* Tablet Responsive Ends */
