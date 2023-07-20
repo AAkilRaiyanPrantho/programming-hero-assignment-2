@@ -351,6 +351,55 @@ play-instantly-texts-description,
 
 /* Play Instantly Bonus Section Ends */
 
+/* Bonus Careers Section Starts */
+
+.careers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+}
+
+.careers-texts {
+  padding-left: 240px;
+}
+.career-header {
+  width: 425px;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  margin-top: 20px;
+}
+.career-description {
+  width: 680px;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.career-experiences {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.places{
+  display: flex;
+  justify-content: space-between;
+}
+.career-btn {
+  padding: 20px 40px;
+  gap: 10px;
+  margin-top: 20px;
+  border-radius: 48px;
+  background: #fff;
+  color: #ff42a5;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Bonus Careers Section Ends */
+
 /* Game Hovering Section Starts */
 .game-hovering {
   display: flex;
@@ -360,7 +409,7 @@ play-instantly-texts-description,
   gap: 10px;
   width: 75%;
   margin: auto;
-  margin-top: -150px;
+  margin-top: 50px;
   padding: 80px 10px;
   /* background-color: #f948b2; */
 }
@@ -472,8 +521,10 @@ play-instantly-texts-description,
     flex-direction: column;
     padding: 0px;
   }
-  #socials{
+  #socials {
     justify-content: center;
+    width: 60%;
+    margin: auto;
   }
   .banner {
     flex-direction: column-reverse;
@@ -504,8 +555,8 @@ play-instantly-texts-description,
       ),
       url("../images/Group\ 14.png");
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     width: 100%;
-    height: auto;
   }
   .banner-image {
     padding-right: 0px;
@@ -544,6 +595,7 @@ play-instantly-texts-description,
     grid-template-columns: 1fr;
     padding: 10px 10px;
   }
+
   .image-container figcaption {
     text-align: center;
     margin: auto;
@@ -554,7 +606,7 @@ play-instantly-texts-description,
     display: none;
   }
   .image-content:hover {
-    display: none;
+    opacity: 1;
   }
   .card-image {
     display: block;
@@ -562,8 +614,71 @@ play-instantly-texts-description,
     margin: auto;
   }
   .card-image:hover {
-    opacity: 1;
+    opacity: 0.5;
   }
+  .image-container {
+  position: relative;
+}
+
+.card-image {
+  display: block;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.image-content {
+  border-radius: 16px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  transition: 0.6s;
+  opacity: 0;
+  position: absolute;
+  height: 84.5%;
+  width: 98%;
+  top: 0;
+  left: 0;
+  display: flex;
+  border: 4px solid #f948b2;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rec-7{
+  border-radius: 16px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  transition: 0.6s;
+  opacity: 0;
+  position: absolute;
+  height: 87%;
+  width: 98%;
+  top: 0;
+  left: 0;
+  display: flex;
+  border: 4px solid #f948b2;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image-content p {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 10px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
   .play-instantly {
     margin: 0px auto;
@@ -595,6 +710,69 @@ play-instantly-texts-description,
     top: -105px;
     left: -10px;
   }
+  /* Bonus Careers Section Starts */
+
+.careers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  flex-direction: column;
+}
+
+.careers-texts {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.career-header {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  margin-top: 20px;
+  width: 100%;
+}
+.career-description {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 400;
+  width: 100%;
+}
+.career-experiences {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  width: 100%;
+}
+.places{
+  display: flex;
+  justify-content: space-between;
+}
+.places .places-p1{
+  text-align: left;
+}
+.places .places-p2{
+  text-align: right;
+}
+.careers-images img {
+  width: 100%;
+  right: 50px;
+}
+.career-btn {
+  padding: 20px 40px;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 48px;
+  background: #fff;
+  color: #ff42a5;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+/* Bonus Careers Section Ends */
 
   /* Bonus */
   .play-instantly-bonus {
@@ -633,7 +811,7 @@ play-instantly-texts-description,
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
     margin: auto;
-    margin-top: -60px;
+    margin-top: 10px;
     margin-bottom: 10px;
     padding: 0px;
   }
@@ -656,14 +834,15 @@ play-instantly-texts-description,
     width: 25%;
   }
 
-  .footer{
+  .footer {
     padding: 0px;
     margin: 0px;
   }
 
-  .footer-links, .footer-socials {
+  .footer-links,
+  .footer-socials {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     align-items: center;
     margin-bottom: 50px;
@@ -671,15 +850,12 @@ play-instantly-texts-description,
 
   .footer-terms {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 5px;
     align-items: center;
     margin-bottom: 50px;
   }
-
 }
 /* Mobile Responsive Ends */
 /* Tablet Responsive Starts */
-@media screen and (min-width: 425px) and (max-width: 768px) 
-
-/* Tablet Responsive Ends */
+@media screen and (min-width: 425px) and (max-width: 768px); /* Tablet Responsive Ends */
