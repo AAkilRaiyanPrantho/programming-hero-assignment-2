@@ -382,7 +382,7 @@ play-instantly-texts-description,
   font-size: 1.25rem;
   font-weight: 600;
 }
-.places{
+.places {
   display: flex;
   justify-content: space-between;
 }
@@ -617,68 +617,67 @@ play-instantly-texts-description,
     opacity: 0.5;
   }
   .image-container {
-  position: relative;
-}
+    position: relative;
+  }
 
-.card-image {
-  display: block;
-  opacity: 1;
-  transition: 0.5s ease;
-  backface-visibility: hidden;
-}
+  .card-image {
+    display: block;
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
 
-.image-content {
-  border-radius: 16px;
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0.6) 100%
-  );
-  transition: 0.6s;
-  opacity: 0;
-  position: absolute;
-  height: 84.5%;
-  width: 98%;
-  top: 0;
-  left: 0;
-  display: flex;
-  border: 4px solid #f948b2;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+  .image-content {
+    border-radius: 16px;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    );
+    transition: 0.6s;
+    opacity: 0;
+    position: absolute;
+    height: 84.5%;
+    width: 98%;
+    top: 0;
+    left: 0;
+    display: flex;
+    border: 4px solid #f948b2;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
-.rec-7{
-  border-radius: 16px;
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0.6) 100%
-  );
-  transition: 0.6s;
-  opacity: 0;
-  position: absolute;
-  height: 87%;
-  width: 98%;
-  top: 0;
-  left: 0;
-  display: flex;
-  border: 4px solid #f948b2;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.image-content p {
-  text-align: center;
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin: 10px;
-  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
+  .rec-7 {
+    border-radius: 16px;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    );
+    transition: 0.6s;
+    opacity: 0;
+    position: absolute;
+    height: 87%;
+    width: 98%;
+    top: 0;
+    left: 0;
+    display: flex;
+    border: 4px solid #f948b2;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .image-content p {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 10px;
+    background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
   .play-instantly {
     margin: 0px auto;
@@ -712,67 +711,72 @@ play-instantly-texts-description,
   }
   /* Bonus Careers Section Starts */
 
-.careers {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
-  flex-direction: column;
-}
+  .careers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+    flex-direction: column;
+  }
 
-.careers-texts {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-.career-header {
-  color: #fff;
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 24px;
-  margin-top: 20px;
-  width: 100%;
-}
-.career-description {
-  color: #fff;
-  font-size: 1.125rem;
-  font-weight: 400;
-  width: 100%;
-}
-.career-experiences {
-  color: #fff;
-  font-size: 1.25rem;
-  font-weight: 600;
-  width: 100%;
-}
-.places{
-  display: flex;
-  justify-content: space-between;
-}
-.places .places-p1{
-  text-align: left;
-}
-.places .places-p2{
-  text-align: right;
-}
-.careers-images img {
-  width: 100%;
-  right: 50px;
-}
-.career-btn {
-  padding: 20px 40px;
-  gap: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 48px;
-  background: #fff;
-  color: #ff42a5;
-  font-size: 1.25rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
+  .careers-texts {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .career-header {
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .career-description {
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 400;
+    width: 100%;
+  }
+  .career-experiences {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 100%;
+  }
+  .places {
+    display: flex;
+    justify-content: space-between;
+  }
+  .places .places-p1 {
+    text-align: left;
+  }
+  .places .places-p2 {
+    text-align: right;
+  }
+  .careers-images img {
+    width: 100%;
+    right: 50px;
+  }
+  .career-btn {
+    padding: 20px 40px;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 48px;
+    background: #fff;
+    color: #ff42a5;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .career-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-
-/* Bonus Careers Section Ends */
+  /* Bonus Careers Section Ends */
 
   /* Bonus */
   .play-instantly-bonus {
@@ -858,4 +862,288 @@ play-instantly-texts-description,
 }
 /* Mobile Responsive Ends */
 /* Tablet Responsive Starts */
-@media screen and (min-width: 425px) and (max-width: 768px); /* Tablet Responsive Ends */
+@media screen and (min-width: 425.1px) and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-text {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+  .banner-image {
+    padding-right: 0px;
+  }
+  .banner-image img {
+    width: 100%;
+  }
+  .we-are-gamers {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+  .gamers-image {
+    padding-left: 0px;
+  }
+  .gamers-image img {
+    width: 100%;
+  }
+  .gamers-text,
+  .gamer-header,
+  .gamers-description {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .gamers-text button {
+    margin-top: 20px;
+  }
+  .gamers-purpose,
+  .gamers-unleash {
+    margin: 20px 0px 0px 0px;
+  }
+  .funny-videos{
+    display: flex;
+    flex-direction: column;
+  }
+  .funny-video-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+  }
+  .image-container figcaption {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .image-content {
+    display: none;
+  }
+  .image-content:hover {
+    opacity: 1;
+  }
+  .card-image {
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+  .card-image:hover {
+    opacity: 0.5;
+  }
+  .image-container {
+    position: relative;
+  }
+  .card-image {
+    display: block;
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+  .image-content {
+    border-radius: 16px;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    );
+    transition: 0.6s;
+    opacity: 0;
+    position: absolute;
+    height: 72.5%;
+    width: 49.5%;
+    top: -1.5px;
+    left: 88.5px;
+    display: flex;
+    border: 4px solid #f948b2;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .rec-7 {
+    border-radius: 16px;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    );
+    transition: 0.6s;
+    opacity: 0;
+    position: absolute;
+    height: 72.5%;
+    width: 49.5%;
+    top: -1.5px;
+    left: 88.5px;
+    display: flex;
+    border: 4px solid #f948b2;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .image-content p {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 10px;
+    background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .play-instantly {
+    margin: 0px auto;
+    flex-direction: column;
+    padding: 0px;
+    width: 100%;
+  }
+  .play-instantly-texts {
+    margin: auto;
+  }
+  .play-instantly-texts-header,
+  .play-instantly-texts-header-span {
+    text-align: center;
+    width: 100%;
+  }
+  .play-instantly-texts-description {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .play-instantly-images{
+    align-items: center;
+    margin: auto;
+  }
+  .image-overlap2{
+    margin-bottom: -150px;
+  }
+  .overlapped1 {
+    border-radius: 8px;
+    position: relative;
+    top: -285px;
+    left: -10px;
+  }
+
+  .play-instantly-bonus {
+    margin: 0px auto;
+    flex-direction: column-reverse;
+    padding: 0px;
+  }
+  .play-instantly-texts-bonus {
+    margin: auto;
+  }
+  .play-instantly-texts-header-bonus,
+  .play-instantly-texts-header-span-bonus {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .play-instantly-texts-description-bonus {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .play-instantly-images-bonus{
+    align-items: center;
+    margin: auto;
+  }
+  .image-overlap2-bonus{
+    margin-bottom: -150px;
+  }  
+  .overlapped2 {
+    border-radius: 8px;
+    position: relative;
+    bottom: 250px;
+    left: 400px;
+  }
+
+  .careers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+    flex-direction: column;
+  }
+
+  .careers-texts {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .career-header {
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .career-description {
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 400;
+    width: 100%;
+  }
+  .career-experiences {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 100%;
+  }
+  .places {
+    display: flex;
+    justify-content: space-between;
+  }
+  .places .places-p1 {
+    text-align: left;
+  }
+  .places .places-p2 {
+    text-align: right;
+  }
+  .careers-images img {
+    width: 100%;
+    right: 50px;
+  }
+  .career-btn {
+    padding: 20px 40px;
+    gap: 10px;
+    margin: 20px auto;
+    border-radius: 48px;
+    background: #fff;
+    color: #ff42a5;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .career-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+}
+/* Tablet Responsive Ends */
